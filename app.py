@@ -17,8 +17,7 @@ def on_disconnect():
 @socketio.on('new subm')
 def on_new_rank(data):
     print("Rank Received")
-    gloom = data['rank_gloom']
-    tm = data['rank_tm']
+    print(data)
     socketio.emit('new rank', data)
 
 @app.route('/')
