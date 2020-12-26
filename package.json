@@ -28,8 +28,5 @@
       "@babel/preset-env",
       "@babel/preset-react"
     ]
-  },
-  "dependencies": {
-    "socket.io-client": "^3.0.4"
   }
 }
